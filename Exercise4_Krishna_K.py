@@ -12,9 +12,9 @@ xScoreComputerProgramming = 60
 
 print ("======= Year 2 Semester 1 ===========")
 print  ("------ Your Score --------")
-print ("Foundation English :", 10," Points")
 print ("Foundation English :", xScoreFoundationEnglish," Points")
-print ("General Business :", 10, "Points")
+print ("Foundation English :", xScoreFoundationEnglish," Points")
+print ("General Business :", xScoreGeneralBusiness, "Points")
 print ("Introduction to Computer Systems :",xScoreComputerSys, " Points")
 print ("Computer Programming :", xScoreComputerProgramming, " Points")
 
