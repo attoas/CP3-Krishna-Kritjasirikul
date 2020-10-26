@@ -1,0 +1,6 @@
+print("Need for Speed !!!")
+print("--------------------")
+s = float(input("Input Distance (km): "))
+t = float(input("Input Time (hr): "))
+print("--------------------")
+print("Speed is",int(s/t),"km/hr")
