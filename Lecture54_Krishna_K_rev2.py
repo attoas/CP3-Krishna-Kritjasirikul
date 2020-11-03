@@ -1,4 +1,6 @@
+count = 1
 def login():
+    global count
     usernameInput = input("Username : ")
     passwordInput = input("Password : ")
     if usernameInput == "admin" and passwordInput == "1234":
@@ -6,7 +8,11 @@ def login():
         return showMenu()
     else:
         print("You logged in FAILED!!! ==== Please try again.")
-        return login()
+        if count < 3:
+            count = count+1
+            return login()
+        else:
+            print ("you exceed attempt 3 times!!!")
 
 def showMenu():
     print("----- iShop -----")
